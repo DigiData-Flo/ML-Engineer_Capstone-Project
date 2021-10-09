@@ -31,4 +31,14 @@ An aws account is necessary to tun the machine learning models.
 
 ## Order for Notebooks
  
-There are several noteboos for better organization.
+There are several notebooks for better organization.
+
+1. Starbucks_Capstone_notebook.ipynb gives a small project introduction 
+2. DataCleaning.ipynb creates the cleaned files and a merged full dataframe. All dataframe here created are written to csv files in data directory
+3. Labeling.ipynb creates a dataframe with offers and the information for each event about offer viewed and offer completed. This notebooks writes the file received.csv.
+4. Exploratory_Data_Analysis.ipynb ist for data exploration. Takes as input the cleaned files and the received.csv from Labeling
+5. ML_preprocessing.ipynb performs some additional preprocessing steps to prepare the data for machine learning algorithms
+6. xgboost_completed.ipynb is the notebook which creates the xgboost machine learning model
+7. LinearLearner_completed.ipynb is the notebook  which creates the Linear Learner machine learning model
+
+There are several more notebooks where I played with different features space, different input, pytorch etc. But these are not part of the final report.
